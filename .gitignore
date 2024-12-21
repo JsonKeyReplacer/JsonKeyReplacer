@@ -1,0 +1,13 @@
+# Maven
+target/
+
+# IDE
+.idea/
+*.iml
+
+# Gradle
+build/
+.gradle/
+
+# Logs
+*.log
