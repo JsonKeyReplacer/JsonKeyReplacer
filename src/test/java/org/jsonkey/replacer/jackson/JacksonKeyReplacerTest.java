@@ -121,6 +121,8 @@ public class JacksonKeyReplacerTest extends TestCase {
 
         String modifiedJson = jsonKeyReplacer.modifyKeys(json1, replaceRules);
 
+        System.out.println(modifiedJson);
+
         Assert.assertEquals(json1Modify, modifiedJson);
 
     }
